@@ -14,6 +14,7 @@
 		B3428A6928D2F14100088139 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B3428A6828D2F14100088139 /* Assets.xcassets */; };
 		B3428A6C28D2F14100088139 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B3428A6A28D2F14100088139 /* LaunchScreen.storyboard */; };
 		B3428A7428D2FAEE00088139 /* InputViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3428A7328D2FAEE00088139 /* InputViewController.swift */; };
+		B38ACE1128DACBE6000A8B0C /* task.swift in Sources */ = {isa = PBXBuildFile; fileRef = B38ACE1028DACBE6000A8B0C /* task.swift */; };
 		F7C0BFF0045A968296A4D8F8 /* Pods_taskapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4713EC70A89F8BB003B9611 /* Pods_taskapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		B3428A6B28D2F14100088139 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B3428A6D28D2F14100088139 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B3428A7328D2FAEE00088139 /* InputViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InputViewController.swift; sourceTree = "<group>"; };
+		B38ACE1028DACBE6000A8B0C /* task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = task.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				153408DB24AD969889A7F13E /* Pods-taskapp.debug.xcconfig */,
 				50FB3FCE21DF9AFD7844BDD4 /* Pods-taskapp.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -89,6 +90,7 @@
 				B3428A7328D2FAEE00088139 /* InputViewController.swift */,
 				B3428A6528D2F14000088139 /* Main.storyboard */,
 				B3428A6828D2F14100088139 /* Assets.xcassets */,
+				B38ACE1028DACBE6000A8B0C /* task.swift */,
 				B3428A6A28D2F14100088139 /* LaunchScreen.storyboard */,
 				B3428A6D28D2F14100088139 /* Info.plist */,
 			);
@@ -214,6 +216,7 @@
 				B3428A6028D2F14000088139 /* AppDelegate.swift in Sources */,
 				B3428A6228D2F14000088139 /* SceneDelegate.swift in Sources */,
 				B3428A7428D2FAEE00088139 /* InputViewController.swift in Sources */,
+				B38ACE1128DACBE6000A8B0C /* task.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
